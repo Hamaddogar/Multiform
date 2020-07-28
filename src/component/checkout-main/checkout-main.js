@@ -150,9 +150,9 @@ function getStepContent(step) {
                     color="primary"
                     onClick={handleNext}
                     className={classes.button}
-                  >
-                          </Button>   {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
-         
+                    >
+                   {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                   </Button>
                 </div>
               </React.Fragment>
             )}
